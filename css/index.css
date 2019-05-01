@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.body-content {
+    height: calc(100vh - 16.25rem);
+}
+
+.header--main {
+    background-color: white;
+    margin: 1rem 1rem;
+    display: inline-block;
+    width: 90%;
+}
+
+.about-list {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-list {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__list {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.header__list li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+#projects {
+    padding-right: 30px;
+}
+
+#about {
+    padding-right: 30px;
+}
+
+#news {
+    padding-right: 30px;
+}
+
+#car {
+    margin: left;
+    max-width: 40rem;
+    width: 70%;
+    position: absolute;
+    z-index: 1;
+}
+
+#sign {
+    margin: right;
+    max-width: 40rem;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+#surfer {
+    margin: bottom;
+    max-width: 20rem;
+    width: 15%;
+    position: absolute;
+    left: 75%;
+    top: 76%;
+    z-index: 2;
+}
+
+h1 {
+    float: right;
+    padding: 0 6rem;
+    color: rgb(232 0 46);
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    float: bottom;
+    width: 23%;
+    z-index: 3;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    font-family: Tofino, Arial, Helvetica, sans-serif;
+    color: rgb(232 0 46);
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+}
